@@ -1,0 +1,15 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+random1 <- sample(1:18, 18, replace=F)
+data.frame(matrix(random1, ncol = 6))
+
+random2 <- sample(1:18, 18, replace=F)
+data.frame(matrix(random2, ncol = 6))
+
+random3 <- sample(1:18, 18, replace=F)
+data.frame(matrix(random3, ncol = 6))
+```

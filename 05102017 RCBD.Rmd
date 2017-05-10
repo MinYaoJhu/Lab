@@ -1,0 +1,18 @@
+---
+title: "RCBD"
+author: "Min-Yao"
+date: "2017年5月10日"
+output: html_document
+---
+
+```{r}
+random1 <- sample(1:18, 18, replace=F)
+data.frame(matrix(random1, ncol = 6))
+
+random2 <- sample(1:18, 18, replace=F)
+data.frame(matrix(random2, ncol = 6))
+
+random3 <- sample(1:18, 18, replace=F)
+data.frame(matrix(random3, ncol = 6))
+```
+
